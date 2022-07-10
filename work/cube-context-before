@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# inputs: force resist
+# outputs: result
+roll() {
+local diff=$((force-resist))
+local chance_of_success
+let 'chance_of_success = (diff + 1000) * 1000 / (diff + 2000)'
+}

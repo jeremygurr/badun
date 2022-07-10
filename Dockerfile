@@ -1,5 +1,12 @@
 FROM simpleton
 
+ENV BADUN_REPO=/repo/badun
+
+RUN apk add \
+  etcd-ctl \
+  etcd-doc \
+  $nothing
+
 # RUN apk add \
 #   abuild \
 #   alpine-sdk \
@@ -58,4 +65,5 @@ FROM simpleton
 #   usbutils \
 #   $nothing
 
-RUN ln -sf /repo/badun/shell-start2.sh /etc/profile.d/
+RUN ln -sf $BADUN_REPO/shell-start2.sh /etc/profile.d/
+WORKDIR $BADUN_REPO/work
