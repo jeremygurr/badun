@@ -1,0 +1,33 @@
+simpleton
+
+work/**/out
+work/**/out.new
+work/**/out.old
+work/**/tmp
+work/**/log
+work/**/lock
+work/**/status
+work/**/return
+
+# .info keeps otherwise empty directories and documents them
+!.info
+
+build
+tags
+.idea
+
+extensions/*
+
+### Eclipse ###
+
+.metadata
+tmp/
+*.tmp
+*.bak
+*.sw?
+.settings/
+
+### macOS ###
+*.DS_Store
+.AppleDouble
+.LSOverride
