@@ -1,9 +1,23 @@
 #!/bin/bash
 
-# inputs: force resist
 # outputs: result
 roll() {
-local diff=$((force-resist))
-local chance_of_success
-let 'chance_of_success = (diff + 1000) * 1000 / (diff + 2000)'
+local r
+let 'r = RANDOM % 1000'
+if [[ $r -ge 500 ]]; then
+  let 'result = (1000 - 2 * r) / (r - 1000)'
+else
+  let 'r = 1000 - r'
+  let 'result = - (1000 - 2 * r) / (r - 1000)'
+fi
 }
+
+health_levels=(
+  dead
+  critically_wounded
+  major_wounds
+  minor_wounds
+  perfect_health
+)
+enum health_levels
+

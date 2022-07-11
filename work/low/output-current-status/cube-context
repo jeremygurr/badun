@@ -1,0 +1,10 @@
+#!/bin/bash
+
+features=
+default_fresh=0
+
+execute_update() {
+  health=${health_levels[$player_health]}
+  health=${health//_/ }
+  echo "Your current health is: $health"
+}
