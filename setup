@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+main() {
+
+if [[ ! -d ../simpleton ]]; then
+  cd .. || return 1
+  git clone https://github.com/jeremygurr/simpleton.git || return 1
+  cd badun || return 1
+fi
+
+cd ../simpleton || return 1
+if [[ ! -d target ]]; then
+  ./build || return 1
+fi
+
+echo "Setup successful. You can now go to the simpleton folder and launch the container:"
+echo
+echo "cd ../simpleton"
+echo "./launch"
+
+}
+
+main
+

@@ -1,0 +1,40 @@
+source $SIMPLETON_LIB/command-prep "$0" "$@" || return 1
+source $SIMPLETON_LIB/simple-block-aliases || return 1
+source $SIMPLETON_LIB/bash-debugger || return 1
+source $SIMPLETON_LIB/full-block-aliases || return 1
+source $SIMPLETON_LIB/bash-lib || return 1
+
+parameters_to_env "$@"
+if [[ "${real_params:-}" ]]; then
+  set "${real_params[@]}"; shift
+fi
+
+debugger_init || return 1
+
+load_context() {
+  begin_function
+    if [[ -f context ]]; then
+      source context || fail
+    fi
+    p_health=${p_health:-10}
+    p_energy=${p_energy:-10}
+    m_health=${m_health:-10}
+    m_energy=${m_energy:-10}
+    s_health=${s_health:-10}
+    s_energy=${s_energy:-10}
+  end_function
+  handle_return
+}
+
+main() {
+  begin_function
+    load_context || fail
+    begin_loop
+      
+    end_loop
+  end_function
+  handle_return
+}
+
+main
+

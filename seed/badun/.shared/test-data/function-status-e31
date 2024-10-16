@@ -1,0 +1,2885 @@
+any {
+  "serverVersion" : "7.61.2",
+  "deploymentInfo" : [ {
+    "namespace" : "one-data",
+    "address" : "ReadRecentChargeAttempts.sor.v2",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerContactDetails.v1",
+    "functionVersion" : "1.0.7"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientDetailsAndProfile.v1",
+    "functionVersion" : "2.40.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingPendingTransactions.sor.v3",
+    "functionVersion" : "4.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateRtfEventForPaymentDevice.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAllUserExperiences.sor.v1",
+    "functionVersion" : "0.47.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTotalSpendData.sor.v1",
+    "functionVersion" : "1.30.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadStateFromAuthenticationToken.v1",
+    "functionVersion" : "0.0.7"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountEmailAddressesWithPreference.v1",
+    "functionVersion" : "0.1.10"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreatePaymentDeviceEventsToKafkaPublisher.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardDemographicsVerification.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPaymentProgramBenefitDetails.v1",
+    "functionVersion" : "1.4.10"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionTreatment.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsPendingTransactions.sor.v1",
+    "functionVersion" : "1.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCustomerHardshipJourneyEventDetails.v1",
+    "functionVersion" : "1.0.8"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateOneStreamEvent.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteCompositeSecurityDecorator.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFunctionMetadata.v2",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardActivationStatus.sor.v2",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDeliveryOptionsForCardIssuance.v1",
+    "functionVersion" : "4.94.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAllUserExperiences.v1",
+    "functionVersion" : "0.17.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateRfc.v1",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerValueAccountAttributes.v1",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCrossBorderQuoteLite.sor.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIntranetUserProfile.v2",
+    "functionVersion" : "2.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIspJourneyRecord.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneIdentityAuthenticationEnforcementPolicy.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFlagForIssuance.sor.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadConsumerRelevantMerchantDetails.sor.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIssuanceUserRequest.sor.v1",
+    "functionVersion" : "2.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuanceEventForKafkaPublish.sor.v1",
+    "functionVersion" : "2.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingCustomerSearch.sor.v1",
+    "functionVersion" : "1.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingDepositAccount.sor.v1",
+    "functionVersion" : "3.10.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerHistoryNotes.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerAccountsAndRelationships.v1",
+    "functionVersion" : "1.0.12"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPaymentProgramBalance.v1",
+    "functionVersion" : "1.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductSummaryDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAuthorizationAvailableFunds.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskAttributesForCustomer.sor.v2",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteCronTrigger.v2",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransactionDisputeDetails.v1",
+    "functionVersion" : "2.14.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLocalizationRoutingDetails.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountEmailAddresses.v2",
+    "functionVersion" : "2.1.8"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantRiskBusinessRules.v1",
+    "functionVersion" : "0.37.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateChipData.v2",
+    "functionVersion" : "7.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAnalyticalSearchInstruments.sor.v1",
+    "functionVersion" : "2.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantUserIdentifierFromPrivateGuid.sor.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingExternalFundingAccount.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRecentChargeAttempts.sor.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateProgramLimitsComposite.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentPayerPayee.sor.v1",
+    "functionVersion" : "2.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingUserMarketEntitlementValidation.v1",
+    "functionVersion" : "1.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProcessEnterpriseCase.sor.v2",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFeatureStoreFeatureGroups.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOfferArrangementDetails.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOauthMemberDetails.sor.v2",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerServicingNotes.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingDebitCardStatusAndDemographics.v1",
+    "functionVersion" : "0.49.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsAccounts.v2",
+    "functionVersion" : "1.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIssuanceProductSetupConfiguration.v1",
+    "functionVersion" : "1.42.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateUserAlias.sor.v2",
+    "functionVersion" : "1.0.22"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadThirdPartyVerification.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateExposureComposite.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalServicingUserEntitlements.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerPreference.v1",
+    "functionVersion" : "1.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateVoiceResponseContextJourneyEvent.v2",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateReplenishItReport.sor.v1",
+    "functionVersion" : "0.87.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCrossBorderFundingMethod.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuances.sor.v3",
+    "functionVersion" : "1.29.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFunctionDeployment.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAdobeSignAgreementRecords.sor.v1",
+    "functionVersion" : "1.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingUserAttributes.sor.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateSingleCorporateCardApplication.v1",
+    "functionVersion" : "4.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCorporateOneIdentityUserManagement.v1",
+    "functionVersion" : "1.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransactionDisputeDetails.sor.v2",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTargetingRules.sor.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLastMileCheckForServicing.v1",
+    "functionVersion" : "1.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateTrackingContactHistoryRecord.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountMemoDetails.v1",
+    "functionVersion" : "2.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerHistoryNotes.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountTransactions.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "DeletePartnerToken.sor.v3",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerRelationships.v1",
+    "functionVersion" : "1.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerAccountAgingStatus.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLastContactDetails.sor.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOfferSuppressionEvent.v2",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateSingleCorporateCardApplication.v1",
+    "functionVersion" : "4.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneXPVars.sor.v1",
+    "functionVersion" : "1.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFinancialReliefFulfillment.sor.v2",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsRetrieveDocumentList.v1",
+    "functionVersion" : "0.2.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentCardPayment.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateServicingImpersonationMapping.sor.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLevelFraudTransactions.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOfferArrangementId.sor.v1",
+    "functionVersion" : "0.0.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServicingCurrencyDetails.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIssuanceConfiguration.sor.v1",
+    "functionVersion" : "1.61.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateServicingUserAuthorizationForAccounts.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerValueTreatmentDisclosures.v1",
+    "functionVersion" : "14.23.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIspJourneyRecord.sor.v1",
+    "functionVersion" : "0.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderPaymentBlockListMatches.sor.v1",
+    "functionVersion" : "0.5.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerAccountManagement.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransunionConsumerKyc.sor.v1",
+    "functionVersion" : "0.1.22"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSuspenseCaseCountDetails.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIdfyProfile.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuance.sor.v2",
+    "functionVersion" : "5.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSelfDeclaredIndustryData.sor.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBusinessAcceptanceAttributes.sor.v1",
+    "functionVersion" : "2.138.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPersonalSavingsApplication.sor.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerAcquisitionApplicationsSearch.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServicingCurrencyDetails.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDeliveryOptionsForIssuanceProspect.v1",
+    "functionVersion" : "4.94.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCreditLineLoanDisbStatusManageEvent.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateUpdateDeleteBankingLimitsOperations.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisProductRateSchedules.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIssuanceCommunications.v2",
+    "functionVersion" : "2.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerCreditAuthorizationDetails.sor.v1",
+    "functionVersion" : "0.0.13"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateLineManagementEventRouterForLineRestoration.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsRetrieveDocumentList.sor.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsProcessCustomerFederationFiles.sor.v1",
+    "functionVersion" : "0.32.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateRavenCommunication.v2",
+    "functionVersion" : "1.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateControlAccountBalance.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGarDemographics.sor.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateGlobalDisputesCase.sor.v2",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRecentCustomerInteractions.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardMemberDisclosureAcknowledgement.sor.v1",
+    "functionVersion" : "1.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProcessControlNumber.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTargetingIds.sor.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIspAccountCallersType.v2",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTreatmentDetails.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskProfile.v1",
+    "functionVersion" : "1.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCreditAuthorizationStatusCodes.sor.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIntranetAuthenticationToken.v1",
+    "functionVersion" : "4.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFunctionMetadataInNfs.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingApplicationDecision.v1",
+    "functionVersion" : "0.17.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionTreatment.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTotalSpendData.v1",
+    "functionVersion" : "1.30.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIntranetLdapUserAttributes.sor.v1",
+    "functionVersion" : "2.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditUserInfo.sor.v1",
+    "functionVersion" : "3.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRecentChargeAttempts.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteRestRequest.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLastMileCheckForServicing.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCanaryConfig.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardAccountReferralEligibility.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEligibleFraudTransactions.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateReliableTransactionEvent.sor.v2",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGoLinkByName.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOfferedArrangementDetailsForAcquisition.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardTrackingForNonLoggedInUser.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCheckingAccountPendingTransactionSummaryByRefId.v1",
+    "functionVersion" : "4.72.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPlanApi.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardProductDetails.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCustomerServicingNotes.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUnifyDnbIdentityResolution.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderAccountAgreements.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCorporateMessage.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingCardManagementOptions.v1",
+    "functionVersion" : "0.49.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingInitiateTransfer.v2",
+    "functionVersion" : "3.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadWebpageMetaTags.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateOneIdentityUserCredentials.v1",
+    "functionVersion" : "2.1.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCorporateCardApplicationRtfSubscriber.v1",
+    "functionVersion" : "0.20.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdatePaymentDeviceDesignOptions.v1",
+    "functionVersion" : "1.64.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditServicingUserAuthorizationForAccounts.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMemoForAccounts.sor.v1",
+    "functionVersion" : "3.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountKnowYourCustomerInfo.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingOtpVerification.sor.v1",
+    "functionVersion" : "2.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyCatalogDetailsGiftCardAndPointTransfer.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCommercialExpenseAuditTrail.sor.v1",
+    "functionVersion" : "2.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateServicingImpersonationMapping.v1",
+    "functionVersion" : "0.0.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountMobileNumber.sor.v1",
+    "functionVersion" : "0.0.7"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateDebtManagementFulfillment.v2",
+    "functionVersion" : "3.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMerchantServiceFrequentCallerDetails.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCustomerServicingNotes.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialExpenseDataFileContent.sor.v1",
+    "functionVersion" : "1.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingUserOneTimePassword.sor.v1",
+    "functionVersion" : "2.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadThirdPartyVerification.sor.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountPhoneDetails.v1",
+    "functionVersion" : "0.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEnterpriseData.sor.v3",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductEligibility.v1",
+    "functionVersion" : "1.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLoyaltyBenefitDetails.sor.v1",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteJdbcQuery.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountLimits.v3",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLastContactDetails.v1",
+    "functionVersion" : "0.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingFulfillmentSavingsFundDetails.sor.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateUserPermission.sor.v2",
+    "functionVersion" : "1.3.24"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadKycRefresh.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyStatement.sor.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialExpenseDataFileContent.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesBalances.sor.v2",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingPendingExternalFundingAccount.v1",
+    "functionVersion" : "0.5.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBusinessProfile.v1",
+    "functionVersion" : "2.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateGlobalMerchantOrder.sor.v1",
+    "functionVersion" : "3.24.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPinMailer.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTargetingFeatures.sor.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCreditLineLoanApplication.v1",
+    "functionVersion" : "1.2.7"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFraudCaseActivity.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInsuranceCoveragesByCardAndCategory.sor.v1",
+    "functionVersion" : "1.0.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOpenPaymentFrameworkTransfersSearch.sor.v2",
+    "functionVersion" : "0.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIssuanceUserRequest.v1",
+    "functionVersion" : "2.56.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardMemberRelationshipDetails.v1",
+    "functionVersion" : "1.2.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateUserProfileOrchestrator.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingUserAttributes.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCreditCommunicationActivity.v1",
+    "functionVersion" : "1.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingLoyaltyStatement.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateServicingCaseQuestion.v3",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommunicationDeliveryPreferences.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingFinancialInstitutionLookup.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateGlobalMerchantSetup.v2",
+    "functionVersion" : "0.114.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadExpiryForNextIssuance.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerIdentificationScoreCard.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingExternalFundingAccountLinkages.sor.v2",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountLevelFraudTransactions.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommunicationPreferences.sor.v1",
+    "functionVersion" : "2.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUserProfileAndProductsBySearch.sor.v1",
+    "functionVersion" : "0.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalCardAssetInformation.sor.v1",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEcmNotificationContent.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateNotification.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingSavingsCustomerLinks.sor.v1",
+    "functionVersion" : "0.32.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingUserEntitlements.v1",
+    "functionVersion" : "0.0.15"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateInterstitialSuppressionEventForSession.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesAccounts.sor.v2",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAdobeSignAgreements.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingEncryptedToken.sor.v1",
+    "functionVersion" : "2.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditLineLoanApplicationHistory.v1",
+    "functionVersion" : "1.1.8"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantAccountBankExceptionCaseDetails.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerIdentityAndRelationships.sor.v2",
+    "functionVersion" : "2.61.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMemberRelationship.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBusinessAcceptanceAttributes.v1",
+    "functionVersion" : "2.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPaymentDeviceDesignOptions.v1",
+    "functionVersion" : "1.64.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountDetails.sor.v1",
+    "functionVersion" : "1.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateAcquisitionLogs.v1",
+    "functionVersion" : "4.7.5"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInsuranceCoveragesByCardAndCategory.v1",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateExperiment.v3",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingBeneficiaries.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantCharacteristicsAddress.sor.v1",
+    "functionVersion" : "0.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInsuranceCardInfo.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransUnionModelReport.v1",
+    "functionVersion" : "0.1.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRsvp.sor.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateUserLayout.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuanceByIssuanceId.sor.v1",
+    "functionVersion" : "5.87.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingThirdPartyGuid.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionAgencyInfo.sor.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountPhoneDetails.v1",
+    "functionVersion" : "0.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerSearchRelationships.sor.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditServicingInformation.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneXpExperiment.v1",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIdentityProductsRegistryAndProfile.v1",
+    "functionVersion" : "1.0.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateSessionSuppressionForMessages.sor.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateManualSavingsAccountRegistrationLinks.v1",
+    "functionVersion" : "0.42.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCardIssuance.sor.v2",
+    "functionVersion" : "5.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateReliableTransactionEvent.sor.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadStatusKeysForAccount.v2",
+    "functionVersion" : "3.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisAccountToAccountRelationship.sor.v2",
+    "functionVersion" : "1.26.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderSuspendedCorridors.sor.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateDeployment.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerValueProfileService.sor.v1",
+    "functionVersion" : "1.1.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMemberAccounts.v1",
+    "functionVersion" : "1.1.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisProductById.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTransactionsCharges.sor.v1",
+    "functionVersion" : "1.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMember.v2",
+    "functionVersion" : "3.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOfferDisclosures.v1",
+    "functionVersion" : "4.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateEappArchive.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesFeatureEnrollmentsOnAccount.sor.v2",
+    "functionVersion" : "1.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIntranetUserDetails.v1",
+    "functionVersion" : "0.7.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTravelersChequesClaimDocupload.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEncryptedTokensFromAccountNumbers.v1",
+    "functionVersion" : "3.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadVirtualPaymentTransactionDetails.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTargetTracking.v1",
+    "functionVersion" : "0.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountNumbersFromEncryptedTokens.v1",
+    "functionVersion" : "3.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadWingsUserAuthorization.v1",
+    "functionVersion" : "0.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateGlobalMerchantSupplierVerificationProfile.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantOrder.sor.v1",
+    "functionVersion" : "3.24.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadExperianTruVue.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisCustomerDetails.sor.v1",
+    "functionVersion" : "0.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsTransferAccounts.v2",
+    "functionVersion" : "2.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalDisputesCase.sor.v2",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantCompositeDemographics.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerValueEligibleTreatments.v1",
+    "functionVersion" : "14.23.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientAccounts.v2",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisImageCenterChecks.sor.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadJourneyEventsForContextEntity.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderRecipientValidation.v1",
+    "functionVersion" : "1.53.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCampaignUserEvent.sor.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsRetrieveDocument.sor.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyBenefitsEnrollmentStatusDetails.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditLineLoanOfferOption.v1",
+    "functionVersion" : "1.3.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateChatCustomerSurvey.v1",
+    "functionVersion" : "0.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantDetailsForServicingPortal.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductSuiteDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteTrafficControl.v2",
+    "functionVersion" : "6.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSuspenseCaseCountDetails.sor.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountsPayableOutreachById.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadArrangementDetails.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreateCase.sor.v3",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "DeleteImmediatePaymentForAccount.sor.v1",
+    "functionVersion" : "3.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSearch.v2",
+    "functionVersion" : "1.167.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLaunchPadApplicationsForUser.v1",
+    "functionVersion" : "0.0.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateTelephoneDataProcessor.sor.v1",
+    "functionVersion" : "0.3.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateIdentityProfileMigrationEligibility.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantAccountBankExceptionCaseSummary.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIssuanceUserRequest.sor.v1",
+    "functionVersion" : "2.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAvailableTransactionLimit.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateServicingCaseQuestion.sor.v2",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "DeleteFunction.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerEmploymentDetails.v1",
+    "functionVersion" : "1.2.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardAccountContactHistory.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBalanceTransferOffer.v1",
+    "functionVersion" : "1.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadImmediateCorporateClientHierarchy.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOauthMemberDetails.v2",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerDialAttempts.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardKnowYourCustomerAlertsForAccounts.v1",
+    "functionVersion" : "2.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyCatalogDetails.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDynamicCardIdentificationDigits.sor.v1",
+    "functionVersion" : "0.0.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteMetadataManager.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingCaseList.v1",
+    "functionVersion" : "2.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTransactionsPendingCharges.sor.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPreSpendAuthorization.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesFeatureByTermName.sor.v1",
+    "functionVersion" : "1.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingMoneyTransferEligibility.v1",
+    "functionVersion" : "1.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreatePaymentProgramEnrollmentStatusElements.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingAccountToken.sor.v1",
+    "functionVersion" : "2.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateCardCentralDeliveryDetails.sor.v1",
+    "functionVersion" : "2.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerCaseSummary.sor.v1",
+    "functionVersion" : "0.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskOnboardingDecision.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionCustomerDetails.sor.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingTransactionIntent.sor.v2",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerHeaderDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardAccountContactHistory.v1",
+    "functionVersion" : "2.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalTreatment.v2",
+    "functionVersion" : "8.35.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentDetailSearch.sor.v1",
+    "functionVersion" : "1.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantAccountBankExceptionCaseDetails.sor.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSessionSuppressionForMessages.sor.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditLastCommunicationDetails.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyBrandDetailsForRecommendation.sor.v1",
+    "functionVersion" : "0.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUserInviteAuthenticationStatus.v1",
+    "functionVersion" : "1.50.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingNotesHistory.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSelectedAndDefaultDeliveryOptionForCardIssuance.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardMemberRelationshipDetails.v2",
+    "functionVersion" : "1.2.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIntranetAuthorizationStatus.v2",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingSavingsBeneficiary.sor.v1",
+    "functionVersion" : "1.3.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountStatusAndExposure.sor.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerCreditFraudAlerts.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMessagesForBankingAccount.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateAccountMemo.sor.v1",
+    "functionVersion" : "1.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDebtManagementOptions.v2",
+    "functionVersion" : "5.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFraudCase.v1",
+    "functionVersion" : "1.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditCaseInformationFromCache.sor.v1",
+    "functionVersion" : "1.9.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerCasesCount.sor.v1",
+    "functionVersion" : "0.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreatePaymentProgramEnrollmentStatusElements.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingExternalFundingAccountActivity.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateServicingNotesHistory.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOffers.sor.v1",
+    "functionVersion" : "1.0.8"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteInitializeFrameworkFunctions.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskDecision.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreatePaymentDeviceEventsToKafkaPublisher.sor.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAccountChargeDetails.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingCheckImages.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDemographicsQuality.sor.v1",
+    "functionVersion" : "0.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingInitialFundsTransfer.sor.v2",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOfferHistoryForServicing.v1",
+    "functionVersion" : "1.3.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountEmailAddresses.v2",
+    "functionVersion" : "0.0.13"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSearchEnterpriseCase.sor.v1",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFisCustomer.sor.v3",
+    "functionVersion" : "0.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountSpendFreeze.sor.v1",
+    "functionVersion" : "0.1.12"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingCaseDetails.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCollectionsCaseSummary.sor.v1",
+    "functionVersion" : "0.1.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadVirtualPaymentDisputeEvent.sor.v1",
+    "functionVersion" : "2.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUnifyTransunionConsumerKyc.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBalanceTransferHistory.v1",
+    "functionVersion" : "1.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountAlerts.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEuropeanUnionForexVariance.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDebitCard.sor.v1",
+    "functionVersion" : "0.17.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFisCardStatus.sor.v1",
+    "functionVersion" : "0.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInsuranceUserInformation.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantDemographics.sor.v2",
+    "functionVersion" : "2.156.7"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingValidateAccountTitle.v1",
+    "functionVersion" : "1.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIntranetAuthenticationToken.v2",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateCardSearch.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransactionDisputesActivityForAccount.sor.v2",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountAlerts.v1",
+    "functionVersion" : "0.20.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPreSpendAuthorization.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuances.v3",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAnalyticalSearchInstrumentsRequest.sor.v1",
+    "functionVersion" : "2.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuances.v2",
+    "functionVersion" : "8.68.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDynamicDisclosures.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneDataSyntheticHealth.v1",
+    "functionVersion" : "0.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantRoleFunctionList.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateSessionSuppressionForMessages.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateAccountReceivablesTermByTermName.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCreditLineLoanFraudCaseStatusManageEvent.v1",
+    "functionVersion" : "1.1.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateContactRoleAssociation.sor.v1",
+    "functionVersion" : "2.0.97"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientStatus.v1",
+    "functionVersion" : "2.40.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIspInteractionRecord.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCriticalRequestDetailsEnterpriseCase.v3",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingPostedTransactions.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBusinessProfile.sor.v1",
+    "functionVersion" : "2.138.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentPayerPayeeCard.sor.v1",
+    "functionVersion" : "2.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTreatmentDetails.sor.v1",
+    "functionVersion" : "0.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDisclosuresNeededForCardReplacement.v1",
+    "functionVersion" : "1.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountMemo.v1",
+    "functionVersion" : "2.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMessagingAgentProfile.v2",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFinancialReliefProgramSurvey.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCorporateContactProfileLastLogin.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOauthMemberDetails.sor.v3",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCenturionAgentGroupName.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerContactInformation.sor.v1",
+    "functionVersion" : "0.1.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderProductEligibility.v1",
+    "functionVersion" : "2.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOauthMemberDetails.v3",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateDelinquency.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingBeneficiary.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAnalyzeInstrument.sor.v1",
+    "functionVersion" : "2.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionAgencyInfo.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBusinessProfile.v1",
+    "functionVersion" : "2.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCreditAuthorizationAccountOverride.sor.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisCardStatus.sor.v1",
+    "functionVersion" : "0.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantDebitBalanceSummary.sor.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobestarCardForReplacement.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerIdentificationScoreCard.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateRfc.v1",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "DeleteBankingFundsTransfer.v2",
+    "functionVersion" : "3.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadReliefProgramDisclosures.v1",
+    "functionVersion" : "1.3.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMobileTimeBoxPreference.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerContactDate.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateComplianceCheckForCustomer.v2",
+    "functionVersion" : "0.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServicingDemographics.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuanceEvent.v1",
+    "functionVersion" : "8.68.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRecentChargeAttempts.v2",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantCharacteristicsDemographicsAndAddress.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountExpiredOffers.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFraudTransactions.v1",
+    "functionVersion" : "1.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAllGoLinks.sor.v1",
+    "functionVersion" : "0.32.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneSeoPageData.sor.v2",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFisAccount.sor.v3",
+    "functionVersion" : "0.24.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsIraBeneficiaryList.sor.v1",
+    "functionVersion" : "1.3.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAskAmexSurvey.sor.v1",
+    "functionVersion" : "2.7.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerAccountManagement.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMerchantAcquisitionLog.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteInitializeReadAppToken.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuances.sor.v2",
+    "functionVersion" : "5.87.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAccountTransactions.sor.v3",
+    "functionVersion" : "3.9.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountProfile.v1",
+    "functionVersion" : "1.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateCardSearch.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateOneStreamEvent.sor.v1",
+    "functionVersion" : "2.139.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadVirtualPaymentTransactionDetails.sor.v1",
+    "functionVersion" : "3.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFisEncryptedPin.sor.v1",
+    "functionVersion" : "0.5.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardIssuance.sor.v1",
+    "functionVersion" : "5.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUnifyDnbIdentityResolution.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderSettlementStatusForClientPayments.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDelinquentAccountWeeklyCountPct.v1",
+    "functionVersion" : "1.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountMemoDetails.sor.v1",
+    "functionVersion" : "0.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingSavingsCustomerLinks.v1",
+    "functionVersion" : "0.3.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantSupplierVerification.v1",
+    "functionVersion" : "0.68.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantAddress.sor.v1",
+    "functionVersion" : "0.79.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGeographicalAccount.sor.v2",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreateCase.sor.v2",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerIdentityAndRelationships.v1",
+    "functionVersion" : "0.43.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTransactionsPendingCharges.sor.v2",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadChipDeviceConfig.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderPaymentBlockListMatchesForServicing.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServicingTieredPricing.sor.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCollectionAccountExposure.v1",
+    "functionVersion" : "1.2.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalCard.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantPaymentProductPricingSummary.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneCryptoToken.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientOffers.v1",
+    "functionVersion" : "2.40.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductForArrangement.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFisEconcentPreferences.sor.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingSavingsAccount.v2",
+    "functionVersion" : "1.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateBanner.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAvailableTransactionLimit.v1",
+    "functionVersion" : "0.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMerchantAcquisitionLog.sor.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadExperianTruVue.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardAccountContactHistory.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientProfile.v1",
+    "functionVersion" : "2.40.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "DeleteCreditAuthorizationStatusCode.sor.v1",
+    "functionVersion" : "1.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSellerCharacteristics.v2",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateDebitCard.sor.v1",
+    "functionVersion" : "0.17.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateServicingNotesHistory.v1",
+    "functionVersion" : "2.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyAccountsLoans.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountCallersType.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderPaymentBlockListDetails.sor.v1",
+    "functionVersion" : "0.5.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingCasesCount.v1",
+    "functionVersion" : "2.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuance.sor.v1",
+    "functionVersion" : "5.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductNavigationLinks.v1",
+    "functionVersion" : "1.20.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIspInteractionRecord.sor.v1",
+    "functionVersion" : "0.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingOffers.v1",
+    "functionVersion" : "1.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyPricingOfferEligibility.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadVirtualPaymentPreauthorizationNotification.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPaymentPromises.v2",
+    "functionVersion" : "4.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateTrackingContactHistoryRecord.sor.v1",
+    "functionVersion" : "0.20.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteHttpBridge.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingUserOneTimePassword.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSuppliesProductData.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingSavingsAccount.sor.v2",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteCronTrigger.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditRepresentativeInfo.v1",
+    "functionVersion" : "2.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerServicingNotes.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateHierarchy.sor.v1",
+    "functionVersion" : "0.27.22"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFunctionStart.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSellerCharacteristics.sor.v2",
+    "functionVersion" : "2.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateVoiceResponseContextInsightEvent.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesDemographics.sor.v1",
+    "functionVersion" : "1.0.10"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountValidateSocialSecurityNumber.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadKycRefresh.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisCustomerSearch.sor.v3",
+    "functionVersion" : "0.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantCustomerCareProfileDetails.sor.v1",
+    "functionVersion" : "0.8.11"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesFeatureEnrollmentsOnAccount.sor.v1",
+    "functionVersion" : "1.18.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInsuranceCardInfo.sor.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuanceEvent.sor.v1",
+    "functionVersion" : "5.87.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditCommunicationDocuments.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingRulesEngineApplyRule.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFisCustomerDemographics.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProcessEnterpriseCase.sor.v3",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateDemographicAndCommunicationPreference.v1",
+    "functionVersion" : "0.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingTransferValidate.v2",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountLimits.v2",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyPersonalizationOffers.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountsPayableOutreachById.sor.v1",
+    "functionVersion" : "1.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProfileCheck.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardKnowYourCustomerAlertsForAccounts.sor.v2",
+    "functionVersion" : "0.7.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCustomerCallOutcome.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBalanceTransferStatus.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyCatalogDetailsSelectAndRedeemAndPayWithPoints.sor.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyBenefitsLoanEligibility.sor.v1",
+    "functionVersion" : "2.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountAlerts.v2",
+    "functionVersion" : "0.20.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCorporateContactProfileLastLogin.sor.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSearchEnterpriseCase.sor.v2",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAddressesForCardIssuance.v1",
+    "functionVersion" : "0.54.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreatePartnerNumber.v1",
+    "functionVersion" : "1.4.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUnderwritingCase.sor.v1",
+    "functionVersion" : "0.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerAccountManagementIdnInformation.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateSecurityPrincipal.v1",
+    "functionVersion" : "15.3.20"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingDocument.v2",
+    "functionVersion" : "1.25.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMessagingAgentProfile.sor.v2",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderClientOffers.sor.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEarlyWarningSystem.v1",
+    "functionVersion" : "1.0.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingLimits.v2",
+    "functionVersion" : "0.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateClientDemographics.sor.v1",
+    "functionVersion" : "1.10.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantRoleFunctionList.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingDepositAccounts.sor.v3",
+    "functionVersion" : "3.10.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingPayees.sor.v2",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadUserProfileAndProductsBySearch.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskHistory.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantPaymentProductPricingSummary.sor.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalAcquisitionProductOffersData.v1",
+    "functionVersion" : "2.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerProfile.v1",
+    "functionVersion" : "1.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantAccountBankExceptionCaseSummary.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantCustomerCareProfileDetails.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountProratedFee.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisImageCenterChecksAccessToken.sor.v1",
+    "functionVersion" : "1.33.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAvailablePaymentDeviceDesigns.v2",
+    "functionVersion" : "1.64.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerAccountManagementEmail.sor.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTargetTracking.sor.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCreditLineLoanApplication.v1",
+    "functionVersion" : "1.2.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServiceFrequentCallerDetails.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBusinessCheckingMinimumSupportedVersion.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTravelersChequesClaimDocupload.sor.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsAccountsSummary.v3",
+    "functionVersion" : "1.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateGlobestarCardForSetAccount.sor.v1",
+    "functionVersion" : "1.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPersonalizationTreatments.v1",
+    "functionVersion" : "1.1.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDelinquentAccountWeeklyCountPct.sor.v1",
+    "functionVersion" : "1.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFraudRiskLevel.v1",
+    "functionVersion" : "1.1.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingUserOneTimePassword.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateLoggerLevel.v1",
+    "functionVersion" : "0.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIssuanceProductSpecialHandling.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateOneXpVariantVisit.v1",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransactionDisputesActivityForAccounts.v1",
+    "functionVersion" : "1.8.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateServicingEvent.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateUserLayout.v1",
+    "functionVersion" : "2.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingLinkThirdPartyGuid.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCustomerPrefetchData.v1",
+    "functionVersion" : "2.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneIdentityAuthenticationStatus.sor.v1",
+    "functionVersion" : "1.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalDisputesCase.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingValidateRetirementContributionAmount.sor.v1",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerProfile.v1",
+    "functionVersion" : "1.36.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingLimits.sor.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTermsForFeatureByTermsIdentifier.sor.v1",
+    "functionVersion" : "1.0.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateIdByCardAccount.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateGlobalMerchantOrder.sor.v1",
+    "functionVersion" : "3.24.3"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingSavingsAccountTransactions.v3",
+    "functionVersion" : "1.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSingleCorporateCardApplication.v1",
+    "functionVersion" : "4.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateContactCorporationDetails.sor.v1",
+    "functionVersion" : "0.14.9"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBillOfMaterials.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateEnterpriseCase.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerIdentificationScoreCard.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerActivityCreditTelephone.v1",
+    "functionVersion" : "0.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingPaymentDeviceActivationWithPin.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSearchEnterpriseCase.sor.v3",
+    "functionVersion" : "1.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderPaymentConfirmation.v1",
+    "functionVersion" : "4.28.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLoyaltyTransactionsInformation.sor.v1",
+    "functionVersion" : "1.0.5"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerProducts.v1",
+    "functionVersion" : "2.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateAccountMemo.v2",
+    "functionVersion" : "2.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLateStageCollectionCustomerDetails.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardAccountCreditPlanSummary.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerPhoneHistoryInformations.v1",
+    "functionVersion" : "0.0.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteAccessDecorator.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateVirtualPaymentDispute.v1",
+    "functionVersion" : "2.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadProductRatesAndFees.v1",
+    "functionVersion" : "0.26.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadManualSavingsAccountRegistration.v1",
+    "functionVersion" : "0.42.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadArrangementDetails.sor.v2",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteResourceIsolationSync.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditCommunicationDocuments.sor.v1",
+    "functionVersion" : "1.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProcessControlNumber.sor.v1",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFisImageCenterCheckImage.sor.v1",
+    "functionVersion" : "0.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBusinessProfile.sor.v1",
+    "functionVersion" : "2.138.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantDetailsForServicingPortal.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountKnowYourCustomerInfo.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFisCardPin.sor.v1",
+    "functionVersion" : "0.15.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalCardEligibility.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFeatureStore.sor.v2",
+    "functionVersion" : "1.47.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateGlobalMerchantMultiAcquisition.sor.v1",
+    "functionVersion" : "0.73.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingCachedAccount.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneSeoPageData.sor.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentTypeAheadSearch.sor.v1",
+    "functionVersion" : "1.12.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCrossBorderAccountAgreements.v1",
+    "functionVersion" : "1.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateStatementPermissionsForAuthorization.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalServicingUserAuthorizationForAccounts.v1",
+    "functionVersion" : "1.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateAccountLimits.v1",
+    "functionVersion" : "2.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCorporateMessage.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFisCedarCommunicationPreferences.sor.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyBenefitsTrackers.v2",
+    "functionVersion" : "5.16.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAccountProjection.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLatestCardTrackingDetails.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerIdentificationScoreCard.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAdobeSignAgreementStatus.sor.v1",
+    "functionVersion" : "1.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateLoyaltyOfferEnrollment.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditAuthorizationFlags.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateOneXpVariantMetric.v1",
+    "functionVersion" : "2.132.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardIssuance.v1",
+    "functionVersion" : "7.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadContextHubCustomer.v1",
+    "functionVersion" : "6.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingCaseDetails.v2",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadContextHubJourneysAndEvents.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadInternationalServiceLayerDemographics.sor.v1",
+    "functionVersion" : "2.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPrefillVerificationApplicantData.v1",
+    "functionVersion" : "4.7.5"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerSearchAttributes.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadStatusKeysForAccount.v1",
+    "functionVersion" : "3.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGoLink.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadPersonalizationTreatmentsDecisions.sor.v1",
+    "functionVersion" : "2.0.16"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCorporateCardEmail.sor.v1",
+    "functionVersion" : "2.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadConsumerRelevantMerchantDetails.v1",
+    "functionVersion" : "2.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGeographicalAccount.sor.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFisCustomer.sor.v3",
+    "functionVersion" : "0.30.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMoneyMovementPostTransactionTasks.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCrossBorderQuoteLite.v1",
+    "functionVersion" : "2.10.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadTransUnionModelReport.sor.v1",
+    "functionVersion" : "1.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingNotesHistory.v1",
+    "functionVersion" : "2.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateServicingCase.v2",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingUserAuthorizationForAccounts.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateBankingEncryptedToken.sor.v1",
+    "functionVersion" : "2.0.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOrdersForSearchCriteria.v1",
+    "functionVersion" : "1.37.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadServicingExperienceCache.v1",
+    "functionVersion" : "0.13.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommercialPaymentAuthorizationData.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalCreditLimits.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyBenefitsUsage.sor.v2",
+    "functionVersion" : "2.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRiskHistory.v1",
+    "functionVersion" : "0.11.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateGlobalMerchantLegacyIngestRules.v1",
+    "functionVersion" : "0.23.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalTreatment.sor.v2",
+    "functionVersion" : "3.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerIdentificationScoreCardFinalization.sor.v1",
+    "functionVersion" : "1.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountUserInvites.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingAccountFromToken.v2",
+    "functionVersion" : "0.4.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountMemo.sor.v1",
+    "functionVersion" : "0.27.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateAccountFulfillment.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateProfileCheck.v1",
+    "functionVersion" : "0.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadRewardsSummaryDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateCardDeliveryDetails.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateBanner.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantSuppliesProductData.sor.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTransactionsPendingCharges.v1",
+    "functionVersion" : "0.35.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateBankingSavingsCustomerLinksOffline.sor.v1",
+    "functionVersion" : "0.32.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadLoyaltyAccountRelationships.v1",
+    "functionVersion" : "0.5.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCustomerIdentificationScoreCardFinalization.v1",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBalanceSummaryDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankingLinkedTransferAccounts.v2",
+    "functionVersion" : "0.70.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateDirectDepositForm.v1",
+    "functionVersion" : "1.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountOfferHistoryForServicing.sor.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerIdentityAndRelationships.sor.v1",
+    "functionVersion" : "2.61.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditLineLoanApplication.v1",
+    "functionVersion" : "1.2.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCreditLineLoanOfferEligibility.v1",
+    "functionVersion" : "1.1.6"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateContactProfile.sor.v2",
+    "functionVersion" : "1.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerOffersAndMessages.v1",
+    "functionVersion" : "3.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerLoyaltyBenefitDetails.v1",
+    "functionVersion" : "1.1.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadArrangementsForJurisdiction.v1",
+    "functionVersion" : "0.13.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountEmailAddress.sor.v1",
+    "functionVersion" : "1.1.8"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardMemberDisclosureAcknowledgement.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdatePhoenixPortalUserUsage.v1",
+    "functionVersion" : "0.2.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantServiceFrequentCallerDetails.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateTransactionDispute.v1",
+    "functionVersion" : "1.8.1"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerComplianceFinancials.v1",
+    "functionVersion" : "0.1.4"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadDigitalAcquisitionProductOffersData.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCaseSummaryDetails.v1",
+    "functionVersion" : "0.46.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateModuleSuppressionEventForAccount.v1",
+    "functionVersion" : "0.6.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateFunctionConfig.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadGlobalMerchantHierarchyData.sor.v2",
+    "functionVersion" : "0.59.5"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCommunicationPreferencesEnrollments.sor.v1",
+    "functionVersion" : "0.3.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneXpExperiment.sor.v1",
+    "functionVersion" : "1.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadBankOnFile.v1",
+    "functionVersion" : "0.21.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEncryptedTokensFromData.v1",
+    "functionVersion" : "4.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountExpiredOffers.v1",
+    "functionVersion" : "1.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateFisContactPreferencesForAccount.sor.v1",
+    "functionVersion" : "0.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadEarlyWarningSystem.sor.v1",
+    "functionVersion" : "8.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountLimits.v1",
+    "functionVersion" : "3.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateTransactionDispute.sor.v2",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCardMemberAddressOfType.v1",
+    "functionVersion" : "0.54.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIssuanceEventPublisher.v1",
+    "functionVersion" : "1.35.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadFraudNegativeAttributes.sor.v1",
+    "functionVersion" : "0.9.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateMerchantServiceFrequentCallerDetails.sor.v1",
+    "functionVersion" : "0.8.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadMerchantTargetingRules.v1",
+    "functionVersion" : "0.19.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteRoute.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountStatuses.v1",
+    "functionVersion" : "0.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountDemographics.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ExecuteDeploy.v1",
+    "functionVersion" : "7.61.2"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateOneCryptoToken.sor.v1",
+    "functionVersion" : "0.5.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadSearchEnterpriseCase.v1",
+    "functionVersion" : "2.0.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateCardAccountContactHistory.v1",
+    "functionVersion" : "2.45.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "UpdateCreditAuthorizationTransactionCaseStatus.sor.v1",
+    "functionVersion" : "1.7.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "CreateIdfyProfile.sor.v1",
+    "functionVersion" : "2.47.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCustomerProductDetails.v1",
+    "functionVersion" : "2.14.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadCorporateNotification.v1",
+    "functionVersion" : "0.4.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadIssuanceUserPermission.v1",
+    "functionVersion" : "1.22.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadAccountReceivablesDerivedTermByTermName.sor.v1",
+    "functionVersion" : "1.1.0"
+  }, {
+    "namespace" : "one-data",
+    "address" : "ReadOneCmsContent.sor.v1",
+    "functionVersion" : "3.7.0"
+  } ]
+}
+

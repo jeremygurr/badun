@@ -1,0 +1,15 @@
+pod_description="Which one-data mvs pod."
+
+pod_member_expand() {
+  case "$value" in
+    '')
+      problem="Missing required parameter: pod"
+      return 1
+    ;;
+    *)
+      values=( $value )
+    ;;
+  esac
+  return 0
+}
+

@@ -1,0 +1,4 @@
+host_group    region env     dc    zone    replica root_method host
+prom-proxy    us     e3      1     a       1       fs          jumpin.aexp.com/hvgploaops01.phx.aexp.com
+prom-proxy    us     e3      1     a       1       fs          jumpin.aexp.com/hvgploaops02.phx.aexp.com
+prom-front    us     e3      1     a       1       fs          jumpin.aexp.com/hvgploaops02.phx.aexp.com

@@ -1,0 +1,19 @@
+function_description="Which one-data function"
+
+function_member_expand() {
+  case "$value" in
+    '')
+      problem="Missing required parameter: function"
+      return 1
+    ;;
+    all)
+      problem="All expansion member not yet implemented."
+      return 1
+    ;;
+    *)
+      values=( $value )
+    ;;
+  esac
+  return 0
+}
+

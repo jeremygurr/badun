@@ -1,0 +1,28 @@
+project_description="Which one-data ecp project (one-data, one-data-core-staging, ...)"
+
+project_member_expand() {
+  case "$value" in
+    '')
+      problem="Missing required parameter: project"
+      return 1
+    ;;
+    all)
+      values=( one-data one-data-staging one-data-core-staging one-data-core-test one-data-core-standby )
+    ;;
+    one-data|one-data-staging|one-data-core-staging|one-data-core-test|one-data-core-standby)
+      values=( $value )
+    ;;
+    odct)
+      values=( one-data-core-test )
+    ;;
+    ods)
+      values=( one-data-staging )
+    ;;
+    *)
+      problem="Invalid project: $value"
+      return 1
+    ;;
+  esac
+  return 0
+}
+

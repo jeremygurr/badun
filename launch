@@ -1,42 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-name=${1:-badun}
-persist=${persist:-t}
+# launches new docker container for simpleton
 
-if [ ! "$SIMPLETON_BASE" ]; then
-  echo "You must set SIMPLETON_BASE env var to the folder above the simpleton repo folder before running this." >&2
-  exit 1
-fi
+p=$PWD
+p=${p##*/}
+echo "Checking for $p updates..."
+git pull
+cd ../simpleton
+echo "Checking for simpleton updates..."
+git pull
+./launch
 
-if [ ! "$SIMPLETON_HOME" ]; then
-  echo "You must set SIMPLETON_HOME env var to your simpleton home folder before running this." >&2
-  exit 1
-fi
-
-copy_workspace() {
-  sleep 5
-  echo -en "\r\nCopying workspace..." >&2
-  docker cp "$SIMPLETON_BASE/simpleton" $name:/repo/simpleton || { echo -e "Failed.\r" >&2; return 1; }
-  echo -e "Done.\r" >&2
-}
-
-if [ $persist == t ]; then
-  set -x
-  docker run -it --rm -u $UID --name $name -e COLUMNS=$COLUMNS \
-    -v $SIMPLETON_BASE:/repo \
-    -v $SIMPLETON_HOME:/home \
-    -e prompt_name="$name " \
-    -e USER=$USER \
-    $name
-  set +x
-else
-  copy_workspace & pid=$!
-  set -x
-  docker run -it --rm -u $UID --name $name -e COLUMNS=$COLUMNS \
-    -v $SIMPLETON_BASE:/repo \
-    -v $SIMPLETON_HOME:/home \
-    -e prompt_name="$name " \
-    -e USER=$USER \
-    $name || kill $pid
-  set +x
-fi

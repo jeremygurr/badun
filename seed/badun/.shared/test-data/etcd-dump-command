@@ -1,0 +1,1 @@
+etcdctl --command-timeout=600s get --prefix=true /$project/ -w json
